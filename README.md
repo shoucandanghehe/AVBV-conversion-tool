@@ -1,6 +1,7 @@
 AVBV转换工具
 ============
 可将bilibili的AV号和BV号互相转换  
+感谢[@ChargeCrystal](https://github.com/ChargeCrystal) 的技术支持
 
 待实现的功能
 ---------
