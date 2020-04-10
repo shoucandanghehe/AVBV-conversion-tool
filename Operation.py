@@ -1,6 +1,6 @@
 def AVtoBV(AVBehind,Language):
     import CheckFormat
-    base=['f','z','o','d','R','9','X','Q','D','S','U','m','2','1','y','C','k','r','6','z','B','q','i','v','e','Y','a','h','8','b','t','4','x','s','W','p','H','n','J','E','7','j','L','5','V','G','3','g','u','M','T','K','N','P','A','w','c','F']
+    base=['f','Z','o','d','R','9','X','Q','D','S','U','m','2','1','y','C','k','r','6','z','B','q','i','v','e','Y','a','h','8','b','t','4','x','s','W','p','H','n','J','E','7','j','L','5','V','G','3','g','u','M','T','K','N','P','A','w','c','F']
     BinaryVariable = eval(bin(177451812))
     BinaryAV = eval(bin(AVBehind))
     xorAV = BinaryAV ^ BinaryVariable
@@ -38,7 +38,7 @@ def AVtoBV(AVBehind,Language):
 
 def BVtoAV(BVBehind,Language):
     import CheckFormat
-    base=['f','z','o','d','R','9','X','Q','D','S','U','m','2','1','y','C','k','r','6','z','B','q','i','v','e','Y','a','h','8','b','t','4','x','s','W','p','H','n','J','E','7','j','L','5','V','G','3','g','u','M','T','K','N','P','A','w','c','F']
+    base=['f','Z','o','d','R','9','X','Q','D','S','U','m','2','1','y','C','k','r','6','z','B','q','i','v','e','Y','a','h','8','b','t','4','x','s','W','p','H','n','J','E','7','j','L','5','V','G','3','g','u','M','T','K','N','P','A','w','c','F']
     BVBehindEnd = []
     Multiplication = []
     ListComparisonDictionary = 0
